@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Portal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-        
-
         .hero {
             background: url('https://source.unsplash.com/1600x900/?career,office') no-repeat center center;
             background-size: cover;
@@ -25,20 +22,27 @@
         .hero p {
             font-size: 1.5em;
         }
-       
 
         footer {
             background-color: #343a40;
             color: white;
             padding: 20px 0;
         }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 3em;
+            }
+
+            .hero p {
+                font-size: 1.2em;
+            }
+        }
     </style>
 </head>
-
 <body>
 
     <!-- Navigation -->
-    
     <nav class="navbar position-fixed navbar-expand-lg py-4 fixed-top navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Job Portal</a>
@@ -64,13 +68,12 @@
             </div>
         </div>
     </nav>
-    
 
     <!-- Hero Section -->
     <div class="hero">
         <div class="container">
-            <h1>Find Your Dream Job</h1>
-            <p>Explore thousands of job opportunities</p>
+            <h1 class="display-2">Find Your Dream Job</h1>
+            <p class="lead">Explore thousands of job opportunities</p>
             <a href="#premium-jobs" class="btn btn-primary btn-lg">Get Started</a>
         </div>
     </div>
@@ -123,10 +126,11 @@
             </div>
         </div>
     </section>
-    <!----jobs for you-->
-    <section  class="py-lg-5 px-lg-4" style="background-color: rgb(235, 244, 244);">
-                <div class="px-5">
-                    <h2 class="section-title text-center">Jobs for You</h2>
+
+    <!-- Jobs for You Section -->
+    <section class="py-lg-5 px-lg-4 py-4" style="background-color: rgb(235, 244, 244);">
+        <div class="container">
+            <h2 class="section-title text-center">Jobs for You</h2>
 
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
@@ -137,23 +141,23 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="row gap-4 justify-content-center py-4">
-                        <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                        <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                          <img class="border py-2 px-2 rounded bg-primary-subtle rounded" src="./asset/it_software.svg"><br>
                         <p class="mt-3">IT Software</p>
                         </div>
-                        <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                        <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                             <img class="border py-2 px-2 rounded bg-danger-subtle rounded" src="./asset/cont_icon.svg"><br>
                            <p class="mt-3">Contingent Jobs</p>
                            </div>
-                           <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                           <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                             <img class="border py-2 px-2 rounded bg-success-subtle rounded" src="./asset/work_from_home.svg"><br>
                            <p class="mt-3">Work From Home</p>
                            </div>
-                           <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                           <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                             <img class="border py-2 px-2 rounded bg-warning-subtle rounded" src="./asset/gov_jobs (1).svg"><br>
                            <p class="mt-3">Govt Jobs</p>
                            </div>
-                           <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                           <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                          <img class="border py-2 px-2 rounded bg-info-subtle rounded" src="./asset/intership.svg"><br>
                         <p class="mt-3">Internships</p>
                         </div>
@@ -161,25 +165,25 @@
             
                        </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item ">
                     <div class="row gap-4 justify-content-center py-4">
-                        <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                        <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                          <img class="border py-2 px-2 rounded bg-primary-subtle rounded" src="./asset/it_software.svg"><br>
                         <p class="mt-3">IT Software</p>
                         </div>
-                        <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                        <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                             <img class="border py-2 px-2 rounded bg-danger-subtle rounded" src="./asset/cont_icon.svg"><br>
                            <p class="mt-3">Contingent Jobs</p>
                            </div>
-                           <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                           <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                             <img class="border py-2 px-2 rounded bg-success-subtle rounded" src="./asset/work_from_home.svg"><br>
                            <p class="mt-3">Work From Home</p>
                            </div>
-                           <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                           <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                             <img class="border py-2 px-2 rounded bg-warning-subtle rounded" src="./asset/gov_jobs (1).svg"><br>
                            <p class="mt-3">Govt Jobs</p>
                            </div>
-                           <div class="col-md-2 text-center border bg-white py-4 rounded shadow">
+                           <div class="col-md-2 col-12 text-center border bg-white py-4 rounded shadow">
                          <img class="border py-2 px-2 rounded bg-info-subtle rounded" src="./asset/intership.svg"><br>
                         <p class="mt-3">Internships</p>
                         </div>
@@ -202,9 +206,8 @@
     </section>
 
     <!-- Top Companies Section -->
-   
     <section id="top-companies" class="py-5 ">
-        <div class="px-5">
+        <div class="container">
             <h2 class="section-title text-center">Top Companies for You</h2>
             <div id="carouselExampleFade" class="px-5 carousel slide carousel-fade py-4">
                 <div class="carousel-inner">
@@ -232,7 +235,8 @@
 
     <!-- Government Jobs by State Section -->
     <section id="govt-jobs" class="py-5 mb-3" style="background-color: rgb(236, 242, 243); border-top-right-radius:50%; border-bottom-left-radius: 50%;">
-        <div class="container d-flex flex-column justfy-content-center py-4  ">
+        <div class="container">
+            <!-- Government Jobs by State content here -->
             <h2 class="section-title text-center">Government Jobs by State</h2>
             <div class="row row-cols-md-2  row-cols-lg-4 row-cols-sm-2 row-cols-1 py-5">
                 <div class="mt-2">
@@ -331,64 +335,69 @@
             </div>
         </div>
     </section>
+
+    <!-- FAQ Section -->
     <section class="container py-5">
         <h1 class="text-center py-3">Frequently Asked Questions</h1>
-        <div class="py-4">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            How do I create an account?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            To create an account, click on the "Sign Up" button at the top right corner of the page and follow the instructions to complete the registration process.
+        
+            <div class="py-4">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                How do I create an account?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                To create an account, click on the "Sign Up" button at the top right corner of the page and follow the instructions to complete the registration process.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            How can I apply for a job?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            To apply for a job, first, log in to your account. Then, navigate to the job listing page, select the job you are interested in, and click on the "Apply Now" button. Follow the instructions to submit your application.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                How can I apply for a job?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                To apply for a job, first, log in to your account. Then, navigate to the job listing page, select the job you are interested in, and click on the "Apply Now" button. Follow the instructions to submit your application.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Can I edit my application after submission?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            No, once your application is submitted, you cannot edit it. Make sure to review your application carefully before submitting.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Can I edit my application after submission?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                No, once your application is submitted, you cannot edit it. Make sure to review your application carefully before submitting.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                            How do I reset my password?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            To reset your password, click on the "Forgot Password" link on the login page and follow the instructions sent to your registered email address.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                How do I reset my password?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                To reset your password, click on the "Forgot Password" link on the login page and follow the instructions sent to your registered email address.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            
+        </section>
         
-    </section>
-    
-   
+       
+      
+
     <!-- Footer -->
     <footer class="text-center">
         <div class="container">
@@ -397,7 +406,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
-
 </html>
