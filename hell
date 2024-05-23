@@ -1,0 +1,74 @@
+ <!-- Jobs For You Section -->
+    <section id="jobs" style="background-color:#dadcee;" class=" mt-5 py-5 mx-auto">
+        <!-- Your existing jobs for you section code -->
+        <div class="container">
+            <h3 class="text-center">Jobs For You</h3>
+            <div class="row py-3">
+                <div class="col mx-auto mb-4">
+                    <div class="card job-card w-100 h-75 py-3  border border-secondary-subtle border-2 shadow">
+                        <div class="card-body text-center">
+                            <img class="border p-3 mb-2 rounded bg-primary-subtle" src="./asset/intership.svg" />
+                            <p>Internship</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mx-auto mb-4">
+                    <div class="card job-card w-100 h-75 py-3  border border-secondary-subtle border-2 shadow">
+                        <div class="card-body text-center">
+                            <img class="border p-3 mb-2 rounded bg-secondary-subtle" src="./asset/intership.svg" />
+                            <p>Internship</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mx-auto mb-4">
+                    <div class="card job-card w-100 h-75 py-3  border border-secondary-subtle border-2 shadow">
+                        <div class="card-body text-center">
+                            <img class="border p-3 mb-2 rounded bg-warning-subtle" src="./asset/it_software.svg" />
+                            <p>IT Software</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mx-auto mb-4">
+                    <div class="card job-card w-100 h-75 py-3  border border-secondary-subtle border-2 shadow">
+                        <div class="card-body text-center">
+                            <img class="border p-3 mb-2 rounded bg-danger-subtle" src="./asset/it_software.svg" />
+                            <p>IT Software</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mx-auto mb-4">
+                    <div class="card job-card w-100 h-75 py-3  border border-secondary-subtle border-2 shadow">
+                        <div class="card-body text-center">
+                            <img class="border p-3 mb-2 rounded bg-success-subtle" src="./asset/it_software.svg" />
+                            <p>IT Software</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mx-auto mb-4 ">
+                    <div class="card job-card w-100 h-75 py-3  border border-secondary-subtle border-2 shadow">
+                        <div class="card-body text-center">
+                            <img class="border p-3 mb-2 rounded bg-info-subtle" src="./asset/congi.svg" />
+                            <p>Consulting</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mx-auto mb-4 d-felx align-items-center">
+                    <div class="card job-card w-100 h-75 py-3  border border-secondary-subtle border-2 shadow">
+                        <div class="card-body text-center">
+                            <img class="border p-3 mb-2 rounded bg-danger-subtle" src="./asset/work_from_home.svg" />
+                            <p>Work From Home</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    
